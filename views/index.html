@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Best Chat</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<div id="username">
+		<h2>What is your username?</h2>
+		<input type="text" class="nickname" maxlength="50" placeholder="Username">
+	</div>
+
+<div class="chat">
+<div class="nickNameBox">
+
+</div>
+</div>
+<ul id="messages" class="color"></ul>
+	<form id="messageSend">
+
+<input class="message" type="text" id="m" autocomplete="off">
+<button id="send">Send</button>
+</form>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
